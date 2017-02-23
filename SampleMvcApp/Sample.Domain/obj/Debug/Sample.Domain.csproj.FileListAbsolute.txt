@@ -1,0 +1,10 @@
+E:\Users\skipp\Documents\AAN\Donut\SampleMvcApp\Sample.Domain\bin\Debug\Sample.Domain.dll.config
+E:\Users\skipp\Documents\AAN\Donut\SampleMvcApp\Sample.Domain\bin\Debug\Sample.Domain.dll
+E:\Users\skipp\Documents\AAN\Donut\SampleMvcApp\Sample.Domain\bin\Debug\Sample.Domain.pdb
+E:\Users\skipp\Documents\AAN\Donut\SampleMvcApp\Sample.Domain\bin\Debug\EntityFramework.dll
+E:\Users\skipp\Documents\AAN\Donut\SampleMvcApp\Sample.Domain\bin\Debug\EntityFramework.SqlServer.dll
+E:\Users\skipp\Documents\AAN\Donut\SampleMvcApp\Sample.Domain\bin\Debug\EntityFramework.xml
+E:\Users\skipp\Documents\AAN\Donut\SampleMvcApp\Sample.Domain\bin\Debug\EntityFramework.SqlServer.xml
+E:\Users\skipp\Documents\AAN\Donut\SampleMvcApp\Sample.Domain\obj\Debug\Sample.Domain.dll
+E:\Users\skipp\Documents\AAN\Donut\SampleMvcApp\Sample.Domain\obj\Debug\Sample.Domain.pdb
+E:\Users\skipp\Documents\AAN\Donut\SampleMvcApp\Sample.Domain\obj\Debug\Sample.Domain.csprojResolveAssemblyReference.cache

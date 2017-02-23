@@ -1,10 +1,10 @@
 ﻿@model IEnumerable<Sample.Domain.Doughnut>
 
 @{
-    ViewBag.Title = "Index";
+    ViewBag.Title = "Doughnut Directory";
 }
 
-<h2>Index</h2>
+<h2>Doughnut Directory</h2>
 
 <p>
     @Html.ActionLink("Create New", "Create")
@@ -12,10 +12,10 @@
 <table class="table">
     <tr>
         <th>
-            @Html.DisplayNameFor(model => model.Name)
+            <label>Doughnut Name</label>
         </th>
         <th>
-            @Html.DisplayNameFor(model => model.FlavorId)
+            <label>Flavor</label>
         </th>
         <th></th>
     </tr>
@@ -26,11 +26,10 @@
             @Html.DisplayFor(modelItem => item.Name)
         </td>
         <td>
-            @Html.DisplayFor(modelItem => item.FlavorId)
+            @Html.DisplayFor(modelItem => item.Flavor.Name)
         </td>
         <td>
             @Html.ActionLink("Edit", "Edit", new { id=item.Id }) |
-            @Html.ActionLink("Details", "Details", new { id=item.Id }) |
             @Html.ActionLink("Delete", "Delete", new { id=item.Id })
         </td>
     </tr>

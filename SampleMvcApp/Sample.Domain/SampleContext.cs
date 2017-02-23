@@ -12,7 +12,7 @@ namespace Sample.Domain
     {
         public SampleContext() : base("DefaultConnection")
         {
-            Database.SetInitializer<SampleContext>(null);
+            Database.SetInitializer<SampleContext>(new CreateDatabaseIfNotExists<SampleContext>());
         }
 
         protected override void OnModelCreating(DbModelBuilder modelBuilder)

@@ -10,18 +10,19 @@ namespace Sample.Domain
     public class Doughnut
     {
         public int Id { get; set; }
+
         public string Name { get; set; }
 
         [ForeignKey("Flavor")]
         public int FlavorId { get; set; }
-        public Flavor Flavor { get; set; }
+        public virtual Flavor Flavor { get; set; }
     }
 
     public class Flavor
     {
         public int Id { get; set; }
         public string Name { get; set; }
-        public ICollection<Doughnut> Doughnuts { get; set; }
+        public virtual ICollection<Doughnut> Doughnuts { get; set; }
     }
     
 }
